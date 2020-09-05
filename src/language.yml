@@ -1,0 +1,26 @@
+prefix: "&cSkyblockWand: "
+locationSet: "%prefix% &f%pos% position was set"
+onAnotherIsland: "&c&lFailed! &cYou can only use this on your island"
+givewand: 'You have given %target% a wand'
+placingalreadyrunning: 'You are already placing block'
+actioncomplete: 'The action has been completed'
+blockblacklisted: 'That block is blacklisted'
+actioncanceled: 'You have canceled your worldedit something'
+noaction: 'You have no action running right now'
+wandbroke: 'Your worldedit wand broke'
+commands:
+  SkyblockWand:
+    help:
+      - "&8&m--------------------"
+      - "&c&l(!) COMMAND INFO"
+      - "&7/Wand help"
+      - "&7/Wand set <Block>"
+      - "&7/Wand replace <Block> <Block>"
+      - "&7/Wand list"
+      - "&7/Wand give <player>"
+      - "&8&m--------------------"
+  general:
+    successful: "&a&lSuccess, &aYou have been charged (%money%)"
+    notEnoughFunds: "&c&lFailed! &cYou need (%money%) to do this"
+    tooManyBlocks: "&c&lFailed! &cYou only set 1000 blocks at a time. Current selection (%selectedBlocks%)"
+    nonValidMaterial: "&c&lFailed! &cYour command didn't include a valid material name, check /Wand list for help"

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RiftWorldEdit">
+    <output-path>$PROJECT_DIR$/../../Plugins folder</output-path>
+    <root id="archive" name="RiftWorldEdit.jar">
+      <element id="module-output" name="SkyblockWorldEdit" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/language.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

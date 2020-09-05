@@ -1,0 +1,8 @@
+name: SkyblockWorldEdit
+version: 1.0
+main: me.enchantbook.skyblockworldedit.SkyblockWorldEdit
+commands:
+  wand:
+  set:
+  replace:
+  cancel:

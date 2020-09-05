@@ -1,0 +1,33 @@
+wand:
+  maxBlocks: 1000
+  Material: DIAMOND_HOE
+  Name: "&c&l*&f&l* &c&lWAND &c&l*&f&l*"
+  Lore:
+    - "&8&m--------------------"
+    - "&c&l(!) WAND INFO"
+    - "&7Left click to set position &c1"
+    - "&7Right click to set position &c2"
+    - "&7Uses: &d{uses}"
+    - "&8&o(( &f&oTip: /wand help to learn how to use this &8&o))"
+    - "&8&m--------------------"
+  Enchanted: true
+
+UsesLore: 'Unlimited'
+MultiplyPrice: 4
+BlackList:
+- 'WHEAT_SEEDS'
+- 'REDSTONE'
+- 'NEATHER_STAR'
+SetBlackList:
+  - 'MOB_SPAWNER'
+  - 'CAULDRON_ITEM'
+  - 'CAULDRON'
+prices:
+  STONE: 5
+  GRASS: 10
+  GLASS: 5
+  DIRT: 1
+  COBBLESTONE: 5
+  SUGAR_CANE_BLOCK: 15
+  CACTUS: 20
+  SAND: 5
